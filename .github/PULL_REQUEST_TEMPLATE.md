@@ -19,7 +19,6 @@
 <!-- provide some context -->
 
 #### Check list
-
 - [ ] no hardcoded texts (uses `intl`)
 - [ ] Handled API errors ([reference](https://github.com/commercetools/fe-chapter-notes/issues/33)) <!-- champion with your backend to introduce a new error code -->
 
