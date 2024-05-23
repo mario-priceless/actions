@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import Button from './components/Btn.vue'
 </script>
 
 <template>
@@ -11,7 +12,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
+ 
   <HelloWorld msg="Vite + Vue" />
+   <Button/>
 </template>
 
 <style scoped>
