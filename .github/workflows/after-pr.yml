@@ -1,0 +1,10 @@
+on:
+  check_run:
+    types: [created]
+
+jobs:
+  hello_World2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Echo current timestamp
+        run: echo "The current timestamp is $(date)"
